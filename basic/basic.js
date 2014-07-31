@@ -1,7 +1,7 @@
 module.exports = (function () {
 
   var addNumbers = function ( a, b ) {
-    return a + b;
+    return a - b;
   }
 
   var reverseString = function ( str ) {
