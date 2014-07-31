@@ -1,0 +1,19 @@
+{
+  "name": "test-stack",
+  "version": "0.0.0",
+  "description": "experimenting with the test stack",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omnibus-app/test-stack.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omnibus-app/test-stack/issues"
+  },
+  "homepage": "https://github.com/omnibus-app/test-stack"
+}
