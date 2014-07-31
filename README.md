@@ -1,6 +1,8 @@
 test-stack
 ==========
 
+[![Build Status](https://travis-ci.org/omnibus-app/test-stack.svg?branch=master)](https://travis-ci.org/omnibus-app/test-stack)
+
 Experimenting with our unit testing, code coverage, and continuous integration stack
 
 ## Install
