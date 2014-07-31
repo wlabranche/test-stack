@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/omnibus-app/test-stack/issues"
   },
-  "homepage": "https://github.com/omnibus-app/test-stack"
+  "homepage": "https://github.com/omnibus-app/test-stack",
+  "dependencies": {
+    "mocha": "^1.21.3",
+    "chai": "^1.9.1"
+  }
 }
