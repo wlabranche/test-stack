@@ -1,3 +1,4 @@
+require("blanket");
 var expect = require( 'chai' ).expect;
 
 var basic = require( './basic' );
