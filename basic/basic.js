@@ -1,4 +1,4 @@
-module.exports = ( function () {
+module.exports = (function () {
 
   var addNumbers = function ( a, b ) {
     return a + b;
