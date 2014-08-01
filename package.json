@@ -4,7 +4,8 @@
   "description": "experimenting with the test stack",
   "main": "index.html",
   "scripts": {
-    "test": "mocha ./basic/basic-spec.js"
+    "test": "mocha ./test/basic-spec.js --reporter mocha-lcov-reporter",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "dependencies": {
     "mocha": "^1.21.3",
     "chai": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "coveralls": "~2.7.1",
+    "istanbul": "~0.2.4",
+    "mocha": "~1.17.1",
+    "mocha-lcov-reporter": "0.0.1",
+    "sinon": "~1.8.0"
   }
 }

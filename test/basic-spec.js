@@ -1,6 +1,6 @@
 var expect = require( 'chai' ).expect;
 
-var basic = require( './basic' );
+var basic = require( '../basic/basic' );
 
 var add = basic.add;
 var reverse = basic.reverse;
