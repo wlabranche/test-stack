@@ -5,4 +5,5 @@ node_js:
 before_script:
   - npm install -g bower
   - bower install
-after_script: istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+after_script:
+  - npm run coveralls

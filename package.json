@@ -4,7 +4,8 @@
   "description": "experimenting with the test stack",
   "main": "index.html",
   "scripts": {
-    "test": "mocha ./basic/basic-spec.js --reporter mocha-lcov-reporter"
+    "test": "mocha ./basic/basic-spec.js --reporter mocha-lcov-reporter",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
