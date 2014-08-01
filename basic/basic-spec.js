@@ -1,5 +1,3 @@
-var coveralls = require('coveralls');
-
 var expect = require( 'chai' ).expect;
 
 var basic = require( './basic' );
