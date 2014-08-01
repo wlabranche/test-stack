@@ -4,7 +4,7 @@
   "description": "experimenting with the test stack",
   "main": "index.html",
   "scripts": {
-    "test": "mocha ./basic/basic-spec.js --require sinon"
+    "test": "mocha ./basic/basic-spec.js --reporter mocha-lcov-reporter"
   },
   "repository": {
     "type": "git",
