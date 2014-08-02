@@ -27,6 +27,7 @@
     "gulp": "^3.8.6",
     "gulp-istanbul": "^0.2.1",
     "gulp-mocha": "^0.5.2",
+    "gulp-mocha-phantomjs": "^0.3.0",
     "gulp-util": "^3.0.0",
     "istanbul": "~0.2.4",
     "mocha": "~1.17.1",
