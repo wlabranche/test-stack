@@ -30,12 +30,12 @@ gulp.task('test', function(cb){
     });
 });
 
-gulp.task('backbone', function(cb){
-  gulp.src('./backbone/test.html')
-    .pipe(mochaPhantomJS({reporter: 'spec'}))
-    .pipe(istanbul.writeReports())
-    .on('end', cb);
-});
+// gulp.task('backbone', function(cb){
+//   gulp.src('./backbone/test.html')
+//     .pipe(mochaPhantomJS({reporter: 'spec'}))
+//     .pipe(istanbul.writeReports())
+//     .on('end', cb);
+// });
 
 
 gulp.task('default', ['test', 'backbone']);
