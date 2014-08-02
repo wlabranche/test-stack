@@ -1,7 +1,7 @@
 test-stack
 ==========
 
-[![Build Status](https://travis-ci.org/omnibus-app/test-stack.svg?branch=master)](https://travis-ci.org/omnibus-app/test-stack)
+[![Build Status](https://travis-ci.org/omnibus-app/test-stack.svg?branch=masterstyle=flat)](https://travis-ci.org/omnibus-app/test-stack)
 [![Coverage Status](https://img.shields.io/coveralls/omnibus-app/test-stack.svg)](https://coveralls.io/r/omnibus-app/test-stack)
 <img src="http://img.shields.io/badge/Built%20with-Gulp-red.svg" />
 
