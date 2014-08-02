@@ -13,5 +13,8 @@
     "components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "sinon": "~1.10.3"
+  }
 }
