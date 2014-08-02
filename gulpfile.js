@@ -38,4 +38,4 @@ gulp.task('test', function(cb){
 // });
 
 
-gulp.task('default', ['test', 'backbone']);
+gulp.task('default', ['test']);
