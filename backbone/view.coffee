@@ -1,4 +1,4 @@
-module.exports = class View extends Backbone.View
+class View extends Backbone.View
 
   tagName: "table"
 
@@ -24,3 +24,8 @@ module.exports = class View extends Backbone.View
 
   displayContents: ( evt ) ->
     window.displayContents( evt.target )
+
+if module?.exports
+  module.exports = View
+else
+  window.View = View

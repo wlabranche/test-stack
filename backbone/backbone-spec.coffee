@@ -1,6 +1,7 @@
-Model = require "./model.coffee"
-View = require "./view.coffee"
-misc = require "./misc.coffee"
+
+Model = window.Model
+View = window.View
+$ = window.jQuery
 
 view = undefined
 model = undefined

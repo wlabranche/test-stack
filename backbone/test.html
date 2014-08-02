@@ -21,12 +21,16 @@
     var expect = chai.expect;
   </script>
 
+  <script src="./view.js"></script>
+  <script src="./model.js"></script>
+  <script src="./misc.js"></script>
+
   <script src="./backbone-spec.js"></script>
 
   <script>
-    if (mochaPhantomJS){
+    if ( typeof mochaPhantomJS !== "undefined" ) {
       mochaPhantomJS.run();
-    }else{
+    } else {
       mocha.run();
     }
   </script>
